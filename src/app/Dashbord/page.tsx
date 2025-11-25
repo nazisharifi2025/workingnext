@@ -1,8 +1,11 @@
 import React from 'react'
+import Slider from './Slider'
 
 function page() {
   return (
-    <div className='text-3xl w-full text-center '>Home page</div>
+    <div className='h-screen'>
+      <Slider/>
+    </div>
   )
 }
 
